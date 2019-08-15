@@ -2,7 +2,7 @@
   "name": "global-config-webpack-plugin",
   "version": "0.0.1",
   "description": "react + typescript定义全局配置的插件",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
