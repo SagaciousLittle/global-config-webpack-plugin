@@ -57,7 +57,7 @@ interface Options {
 const initOptions: Options = {
   templateHtmlName: 'index.html',
   globalConfigName: 'globalConfig',
-  globalConfigFilePath: '../../globalConfig.ts',
+  globalConfigFilePath: `${process.cwd()}/globalConfig.ts`,
 }
 
 class GlobalConfigWebpackPlugin implements Plugin {
@@ -139,5 +139,3 @@ function bindWindow (globalName: string, config: {}) {
     })(window)`
   )
 }
-
-console.log(process.cwd())
