@@ -139,3 +139,5 @@ function bindWindow (globalName: string, config: {}) {
     })(window)`
   )
 }
+
+console.log(process.cwd())
